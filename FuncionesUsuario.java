@@ -35,4 +35,7 @@ public class FuncionesUsuario {
 
     }
 
+    public static void cobroSueldo(Usuario usr, valor) {
+        usr.setSaldo(valor)
+    }
 }
